@@ -48,33 +48,6 @@ const achievements = [
 ];
 
 const Expertise = () => {
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.15,
-      },
-    },
-  };
-
-  const cardVariants = {
-    hidden: { 
-      opacity: 0, 
-      y: 50,
-      scale: 0.9,
-    },
-    visible: {
-      opacity: 1,
-      y: 0,
-      scale: 1,
-      transition: {
-        duration: 0.6,
-        ease: [0.6, 0.05, 0.01, 0.9],
-      },
-    },
-  };
-
   return (
     <section id="about" className="py-24 px-6 relative overflow-hidden">
       {/* Animated background elements */}

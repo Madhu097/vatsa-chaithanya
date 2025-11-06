@@ -36,6 +36,39 @@ npm run build
 npm run preview
 ```
 
+## 🚀 Deploy to Vercel
+
+### Quick Deploy
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone)
+
+### Manual Deployment
+
+1. **Push to GitHub**
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit"
+   git remote add origin <your-repo-url>
+   git push -u origin main
+   ```
+
+2. **Deploy on Vercel**
+   - Go to [vercel.com](https://vercel.com)
+   - Import your GitHub repository
+   - Vercel will auto-detect the Vite configuration
+   - Click "Deploy"
+
+3. **Environment Variables** (if needed)
+   - No environment variables required for this project
+
+### Build Configuration
+
+The project includes a `vercel.json` configuration file optimized for Vite deployments:
+- Build Command: `npm run build`
+- Output Directory: `dist`
+- Framework: Vite
+
 ## 🎯 Sections
 
 1. **Hero** - Elegant introduction with animated tagline
