@@ -83,6 +83,7 @@ const Hero = () => {
       ref={heroRef}
       id="home"
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
+      style={{ position: 'relative' }}
     >
       {/* Animated Particles */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
