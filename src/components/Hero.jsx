@@ -4,7 +4,7 @@ import { ChevronDown, Sparkles } from 'lucide-react';
 
 const Hero = () => {
   const shouldReduceMotion = useReducedMotion();
-  const heroRef = useRef<HTMLElement | null>(null);
+  const heroRef = useRef(null);
 
   const { scrollYProgress } = useScroll({
     target: heroRef,
