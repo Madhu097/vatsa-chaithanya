@@ -65,10 +65,10 @@ const Hero = () => {
     tap: { scale: 0.95 },
   };
 
-  // Floating particles
+  // Floating particles - reduced for better performance
   const particles = useMemo(
     () =>
-      Array.from({ length: shouldReduceMotion ? 8 : 18 }, (_, i) => ({
+      Array.from({ length: shouldReduceMotion ? 5 : 12 }, (_, i) => ({
         id: i,
         x: Math.random() * 100,
         y: Math.random() * 100,
