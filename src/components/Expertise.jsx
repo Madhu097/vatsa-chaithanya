@@ -1,49 +1,54 @@
 import { motion } from 'framer-motion';
 import { Briefcase, GraduationCap, Mail, MapPin, Trophy } from 'lucide-react';
 
-const profileImage = 'https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=720&q=80';
+const profileImage = '/public/chaithanya.jpg';
 
 const infoHighlights = [
   {
     icon: <Briefcase size={24} />,
     label: 'Role',
-    value: 'SAP FICO Transformation Leader',
+    value: 'SAP FICO Consultant',
   },
   {
     icon: <MapPin size={24} />,
     label: 'Base',
-    value: 'Bengaluru · Global Delivery',
+    value: 'Hyderabad, Telangana, India',
   },
   {
     icon: <Mail size={24} />,
     label: 'Reach',
-    value: 'hello@chaithanyavatsa.com',
+    value: 'chaithanyavatsa@gmail.com',
   },
 ];
 
 const education = [
   {
-    degree: 'MBA · Finance & Strategy',
-    institution: 'Indian School of Business',
-    year: '2018',
+    degree: 'MBA · Finance',
+    institution: 'KL university',
+    year: '2025 to 2027',
   },
   {
-    degree: 'B.Com (Hons) · Accounting & Analytics',
-    institution: 'Osmania University',
-    year: '2014',
+    degree: 'B. COM CA',
+    institution: 'KAVITHA DEGREE COLLAGE ',
+    year: '2022–2025',
   },
+  {
+    degree: 'Intermediate · CEC',
+    institution: 'SREE CHAITANYA JR COLLEGE',
+    year: '2020–2022',
+  }
 ];
 
 const achievements = [
   {
-    title: 'Finance Transformation',
+    title: 'SAP FICO Implementation',
     description:
-      'Led multi-country SAP S/4HANA FICO programs delivering faster close cycles and enhanced governance.',
+      'Configuring and integrating core FI and CO modules to align with real-world business processes, ensuring seamless financial postings, reporting accuracy, and end-to-end transparency.',
   },
   {
-    title: 'Strategic Partner',
+    title: 'SAP FICO Optimization',
     description:
-      'Translate CFO priorities into scalable processes blending finance rigor with technology innovation.',
+      'Refining and enhancing existing SAP FICO systems to improve performance, automate workflows, and deliver precise, insight-driven financial control across all operations.',
   },
 ];
 
@@ -109,7 +114,8 @@ const Expertise = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            Finance transformation specialist blending SAP FICO mastery with strategic storytelling to turn data into decisive outcomes.
+          A finance professional and SAP FICO Consultant with a strong academic foundation in Commerce (B.Com) and a postgraduate specialization in MBA – Finance. 
+  
           </motion.p>
         </motion.div>
 
@@ -125,13 +131,14 @@ const Expertise = () => {
               <img
                 src={profileImage}
                 alt="Chaithanya Vatsa portrait"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-center"
+                style={{ objectPosition: 'center center' }}
                 loading="lazy"
               />
             </div>
             <h3 className="font-playfair text-3xl text-luxury-offwhite mt-6">Chaithanya Vatsa</h3>
             <p className="text-luxury-gold font-montserrat tracking-[0.2em] uppercase text-xs mt-2">
-              SAP FICO · Finance Storyteller
+             SAP FICO Consultant
             </p>
             <div className="mt-8 w-full space-y-5">
               {infoHighlights.map((item) => (
@@ -164,9 +171,8 @@ const Expertise = () => {
               className="glass-card p-10 rounded-2xl"
             >
               <p className="text-luxury-pearl text-lg leading-relaxed mb-6">
-                I translate complex finance landscapes into streamlined, insight-led narratives for leadership. From blueprint
-                design to go-live, I champion experiences that respect the nuance of local markets while delivering consistent,
-                compliant control worldwide.
+               SAP FICO professional in the making with a strong academic foundation in Commerce and an MBA in Finance, driven by the ambition to integrate financial intelligence with cuttingedge technology. My journey into SAP FICO stems from a deep interest in how businesses translate financial data into strategic decisions. I strive to craft solutions that enhance accuracy, efficiency, and value transforming financial processes into strategic assets for organizational growth “FINANCE IS MY
+               FOUNDATION. SAP IS MY TOOL. GROWTH IS MY CONSTANT GOAL.”
               </p>
               <div className="grid gap-6 sm:grid-cols-2">
                 {achievements.map((achievement) => (

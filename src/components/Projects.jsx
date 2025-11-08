@@ -5,31 +5,31 @@ const Projects = () => {
   const projects = [
     {
       icon: <Building2 size={40} />,
-      title: 'Global Finance Transformation',
-      client: 'Fortune 500 Manufacturing',
-      description: 'Led SAP S/4HANA FICO implementation across 15 countries, streamlining financial reporting and reducing month-end close time by 40%.',
-      technologies: ['SAP S/4HANA', 'FIORI', 'BPC'],
+      title: 'End-to-End SAP FICO Configuration',
+      client: '',
+      description: 'Configured company codes, chart of accounts, fiscal year variants, and posting periods. Executed end-to-end postings for procure-to-pay and order-to-cash cycles to simulate real business operations.',
+      technologies: ['FI, CO, GL, AP, AR'],
     },
     {
       icon: <Globe size={40} />,
-      title: 'Multi-Currency Consolidation',
-      client: 'International Retail Chain',
-      description: 'Designed complex multi-currency GL structure with automated consolidation, enabling real-time financial insights across 25 locations.',
-      technologies: ['SAP ECC', 'EC-CS', 'Profitability Analysis'],
+      title: ' Cost Center & Profit Center Accounting',
+      client: '',
+      description: 'Designed internal cost structures and assigned cost elements to analyze departmental expenses and profitability using the CO module. Generated internal reports for managerial insights.',
+      technologies: ['CO, CO-PA, Cost Analysis'],
     },
     {
       icon: <TrendingUp size={40} />,
-      title: 'Cost Center Optimization',
-      client: 'Energy Sector Leader',
-      description: 'Implemented advanced cost center accounting with predictive analytics, improving budget accuracy by 35% and cost allocation efficiency.',
-      technologies: ['CO-OM', 'CO-PA', 'SAP Analytics Cloud'],
+      title: 'Asset Accounting Implementation',
+      client: '',
+      description: 'Set up asset master data, defined depreciation areas and keys, and executed asset acquisition and retirement transactions for better asset visibility and financial reporting.',
+      technologies: ['FI-AA, Asset Management, Depreciation'],
     },
     {
       icon: <LineChart size={40} />,
-      title: 'Asset Accounting Modernization',
-      client: 'Infrastructure Company',
-      description: 'Migrated legacy asset data to SAP with custom depreciation logic, ensuring compliance and improving asset visibility.',
-      technologies: ['Asset Accounting', 'FI-AA', 'Data Migration'],
+      title: 'Financial Reporting & Integration',
+      client: '',
+      description: 'Integrated FI with MM and SD modules to automate accounting entries for procurement and sales processes. Created financial statements and balance reports for review.',
+      technologies: [' FI, CO, MM, SD'],
     },
   ];
 
@@ -50,7 +50,7 @@ const Projects = () => {
             Project <span className="text-luxury-gold">Highlights</span>
           </h2>
           <p className="text-luxury-pearl text-lg max-w-3xl mx-auto">
-            Transformative SAP FICO implementations delivering measurable business value
+           Practical SAP FICO configurations and simulations demonstrating real-world business processes.
           </p>
         </motion.div>
 

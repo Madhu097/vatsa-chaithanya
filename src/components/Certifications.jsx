@@ -3,21 +3,16 @@ import { Award, CheckCircle } from 'lucide-react';
 
 const Certifications = () => {
   const certifications = [
-    'SAP Certified Application Associate - Financial Accounting (FI)',
-    'SAP Certified Application Associate - Management Accounting (CO)',
-    'SAP S/4HANA Financial Accounting Certification',
-    'SAP S/4HANA Management Accounting Certification',
-    'SAP Certified Application Professional - Asset Accounting',
-    'SAP Financial Consolidation Certification',
-    'SAP Business Planning & Consolidation (BPC)',
-    'SAP Analytics Cloud Financial Planning',
-    'Prince2 Foundation - Project Management',
-    'Agile Scrum Master Certification',
-    'ITIL Foundation v4',
-    'SAP FIORI Implementation',
-    'SAP Migration Cockpit Specialist',
-    'Data Protection & Compliance (GDPR)',
-    'Advanced Excel & Financial Modeling',
+    "MBA in Finance — Ongoing / Completed",
+    'Bachelor of Commerce (B.Com)',
+    'SAP FICO Consultant Training Program',
+    'SAP S/4HANA Financial Accounting (FI)',
+    'SAP S/4HANA Controlling (CO)',
+    'SAP Integration: FI with MM & SD Modules',
+    'SAP Asset Accounting (FI-AA) ',
+    'Advanced Excel & Financial Reporting',
+    ' Basic Power BI for Finance',
+
   ];
 
   return (

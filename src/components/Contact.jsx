@@ -6,25 +6,25 @@ const Contact = () => {
     {
       icon: <Mail size={24} />,
       label: 'Email',
-      value: 'chaithanya.vatsa@email.com',
-      href: 'mailto:chaithanya.vatsa@email.com',
+      value: 'chaithanyavatsa@gmail.com',
+      href: 'mailto:chaithanyavatsa@gmail.com',
     },
     {
       icon: <Phone size={24} />,
       label: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567',
+      value: '+91 8328398152',
+      href: 'tel:+918328398152',
     },
     {
       icon: <Linkedin size={24} />,
       label: 'LinkedIn',
       value: 'linkedin.com/in/chaithanyavatsa',
-      href: 'https://linkedin.com/in/chaithanyavatsa',
+      href: ' https://www.linkedin.com/in/chaithanya-vatsa-549a4a360',
     },
     {
       icon: <MapPin size={24} />,
       label: 'Location',
-      value: 'Available for Global Projects',
+      value: 'Hyderabad, Telangana, India',
       href: null,
     },
   ];
@@ -50,7 +50,7 @@ const Contact = () => {
             Get In <span className="text-luxury-gold">Touch</span>
           </h2>
           <p className="text-luxury-pearl text-lg max-w-3xl mx-auto">
-            Ready to transform your SAP FICO landscape? Let's discuss how we can drive excellence together.
+            FINANCE IS MY FOUNDATION. SAP IS MY TOOL. GROWTH IS MY CONSTANT GOAL.
           </p>
         </motion.div>
 
