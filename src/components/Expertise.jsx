@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Briefcase, GraduationCap, Mail, MapPin, Trophy } from 'lucide-react';
 
-const profileImage = '/public/chaithanya.jpg';
+const profileImage = '/chaithanya.jpg';
 
 const infoHighlights = [
   {
